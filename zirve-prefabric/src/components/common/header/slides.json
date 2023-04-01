@@ -1,0 +1,28 @@
+[
+    
+    {
+        "id":1,
+        "image": "sliders1.jpg",
+        "title": "Prefabrik Evler",
+        "desc": "We offer rental deals at large airports like Norman Y. Mineta San Jose International Airport"
+    },
+    {
+        "id":2,
+        "image": "sliders2.jpg",
+        "title": "Prefabrik iş yerleri",
+        "desc": "We also have convertible, luxury and premium options if you want a more upscale rental"
+    },
+    {
+        "id":3,
+        "image": "sliders3.jpg",
+        "title": "Prefabrik Adina Herşey",
+        "desc": "We also have convertible, luxury and premium options if you want a more upscale rental"
+    },
+    {
+        "id":4,
+        "image": "sliders4.jpg",
+        "title": "Hayatinizi Güvence Altina Alin",
+        "desc": "We also have convertible, luxury and premium options if you want a more upscale rental"
+    }
+
+]
