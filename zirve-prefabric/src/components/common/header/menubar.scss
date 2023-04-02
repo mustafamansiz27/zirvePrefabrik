@@ -1,0 +1,21 @@
+@use "../../../assets/scss/variables" as v;
+@use "../../../assets/scss/mixins" as m;
+$breakpoint: 992px;
+
+
+.menubar{
+   
+  // border: 1px solid black;
+  border-radius: 2rem;
+  background-image: linear-gradient(60deg, v.$color4, v.$color5);
+  // box-shadow: .2rem .4rem rgb(235, 205, 205) ;
+   
+   a{
+    color: v.$color6;
+
+    &:hover{
+      color: v.$color1;
+    }
+   }
+  
+}
