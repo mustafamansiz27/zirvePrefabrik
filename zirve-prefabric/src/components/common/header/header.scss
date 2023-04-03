@@ -6,6 +6,7 @@ $breakpoint: 992px;
     position: relative;
 
 .header{
+    margin-top: 2rem;
     &::after{
         content: "";
         position: absolute;
@@ -23,6 +24,16 @@ $breakpoint: 992px;
      .menubar{
         z-index: 99;
          height: 3rem;
+         margin-top: 2rem;
+
+         .navbar-brand{
+            .navbar-toggler-icon{
+                @media(max-width:991px ) {
+                  right: 0;
+                    
+                }
+            }
+         }
      }
      .swiper-slider{
         height: 100vh;
@@ -30,6 +41,8 @@ $breakpoint: 992px;
 
     }
         .swiper-slide img {
+            overflow: hidden;
+            top: 0;
             display: block;
             width: 100vw;
             height: 95vh;
@@ -42,12 +55,15 @@ $breakpoint: 992px;
         .slider-text{
             position: absolute;
             top: 50%;
+            right: 30%;
             color: white;
-            transform: translateX(50%);
+            // transform: translateX(50%);
             text-align: center;
             font-weight:500 ;
             font-size: 2rem;
-            text-shadow: .1rem .1rem rgb(81, 63, 63);
+           
+            
+             
             // z-index: 99;
           }
         }

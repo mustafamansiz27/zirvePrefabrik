@@ -7,8 +7,8 @@ import Title from './title'
 const Header = () => {
   return (
     <div className='home'>
-    <div className='header'>
-       <div className='menubar'>
+    <div className='header mt-0'>
+       <div className='menubar mt-0'>
       <Menubar/>
     </div>
 
@@ -16,7 +16,7 @@ const Header = () => {
     <div className='swiper-slider'>
       <Slider/>
     </div>
-    
+
     </div>
     
     <div className='title'> <Title/> </div>

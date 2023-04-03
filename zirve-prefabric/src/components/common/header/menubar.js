@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container, Nav, Navbar } from "react-bootstrap";
-import {AiFillHome} from "react-icons"
+import {AiFillContacts, AiFillHome} from "react-icons/ai"
 import "./menubar.scss"
 
 const Menubar = () => {
@@ -16,7 +16,7 @@ const Menubar = () => {
         <Nav className="me-auto">
           <Nav.Link href="#home"><AiFillHome/> Ana Sayfa</Nav.Link>
           <Nav.Link href="#about">Hakkımızda</Nav.Link>
-          <Nav.Link href="#contact">İletişim</Nav.Link>
+          <Nav.Link href="#contact"><AiFillContacts/> İletişim</Nav.Link>
           <Nav.Link href="#product">Ürünler</Nav.Link>
         </Nav>
       </Navbar.Collapse>
