@@ -18,7 +18,7 @@ $breakpoint: 992px;
         transform: translateY(-5%);
 
         background-image: linear-gradient(45deg, rgba(231, 92, 210, 0.356), rgba(243, 124, 170, 0.369) );
-        // z-index: 0;
+        
     }
 
      .menubar{
@@ -30,7 +30,7 @@ $breakpoint: 992px;
             .navbar-toggler-icon{
                 @media(max-width:991px ) {
                   right: 0;
-                  
+
                     
                 }
             }
