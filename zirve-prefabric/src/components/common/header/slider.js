@@ -44,7 +44,7 @@ const Slider = () => {
         })
       } */}
       <SwiperSlide className='sd'>
-        <img src={require(`../../../assets/img/slider/sliders4.jpg`)} />
+        <img src={require(`../../../assets/img/product/slider.jpg`)} />
         
       </SwiperSlide>
       <SwiperSlide className='sd'>

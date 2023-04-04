@@ -1,0 +1,25 @@
+@use "../../../assets/scss/variables" as v;
+@use "../../../assets/scss/mixins" as m;
+$breakpoint: 992px;
+
+
+
+.footer{
+    background-color: rgb(1, 1, 11);
+    border: 1px solid black;
+    height:20rem ;
+    color: rgb(201, 175, 5);
+
+    .container{
+        .row{
+            [class^="col"]{
+                &:first-child{
+                    img{
+                        height: 15rem;
+                        background-color: blue;
+                    }
+                }
+            }
+        }
+    }
+}

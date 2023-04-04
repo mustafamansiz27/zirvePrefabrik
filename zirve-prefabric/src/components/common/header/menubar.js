@@ -1,14 +1,15 @@
 import React from 'react';
 import { Container, Nav, Navbar } from "react-bootstrap";
 import {AiFillContacts, AiFillHome} from "react-icons/ai"
+import headerLogo from "../../../assets/img/product/header logo.jpg"
 import "./menubar.scss"
 
 const Menubar = () => {
   return (
     <Navbar bg="light" expand="lg">
-    <Container className='menubar justify-content-between '>
-      <div>
-      <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
+    <Container className='menubar justify-content-between fixed-top '>
+      <div className='navbar-logo'>
+      <Navbar.Brand href="#home"> <img src={headerLogo} alt="zirve prefabrik  logo" /> </Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       </div>
       <div>
