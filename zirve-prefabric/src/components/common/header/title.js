@@ -5,7 +5,7 @@ const Title = () => {
   return (
     
         <Row className='slider-text'>
-            <Col lg={12}>
+            <Col lg={12} className="zirve-title" >
           <p>ZİRVE PREFABRİK</p>
          
            </Col>

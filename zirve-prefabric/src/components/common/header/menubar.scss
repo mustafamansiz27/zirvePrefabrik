@@ -3,27 +3,72 @@
 $breakpoint: 992px;
 
 
-.menubar{
+.menubar-navbar{
    
   // border: 1px solid black;
+
+  position: relative;
   border-radius: 2rem;
-  background-image: linear-gradient(60deg, v.$color4, v.$color5);
-  height: 8rem;
-  // box-shadow: .2rem .4rem rgb(235, 205, 205) ;
+  // background-image: linear-gradient(450deg, white, white);
+  height: 10rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  
      .navbar-logo{
+      position: absolute;
+
+      .toggle{
+        position: absolute;
+        transform: translateX(900%);
+        @media (max-width : 768px) {
+          transform: translateX(600%);
+          @media (max-width :496px) {
+            transform: translateX(220px);
+            
+          }
+          
+        }
+      
+       
+      }
+     
       .navbar-brand{
+
         img{
-          height: 3rem;
-          width: 4rem;
+          height: 15rem;
+          width: 24rem;
+          margin-bottom: .1rem;
         }
       }
      }
-   a{
-    color: v.$color6;
+     .navbar-link{
+        .navbar-collapse{
+          .links{
+            margin-left: 50rem;
+            @media (max-width:1400px ) {
+              margin-left: 30rem;
+              
+            }
 
-    &:hover{
-      color: v.$color1;
-    }
-   }
+            a{
+              background-image: linear-gradient(450deg, rgb(182, 174, 174), rgba(249, 217, 217, 0.442));
+              border-radius: 3rem;
+              margin-right:.4rem ;
+              color: v.$color6;
+              font-size: 1rem;
+              font-weight: 500; 
+              &:hover{
+                color: v.$color1;
+              }
+              svg{
+                margin-bottom: .2rem;
+              }
+             }
+          }
+        }
+
+     } 
+     
   
 }
