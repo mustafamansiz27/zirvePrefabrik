@@ -7,8 +7,14 @@ $breakpoint: 992px;
 .footer{
     background-color: rgb(1, 1, 11);
     border: 1px solid black;
-    height:20rem ;
+    height:50rem ;
     color: rgb(201, 175, 5);
+    @media (min-width:500px) {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
 
     .container{
         .row{
