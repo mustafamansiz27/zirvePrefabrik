@@ -18,11 +18,26 @@ $breakpoint: 992px;
 
     .container{
         .row{
+            @media (max-width:500px) {
+                gap: 1rem;
+                
+            }
             [class^="col"]{
                 &:first-child{
+                
+                        text-decoration: none;
                     img{
                         height: 15rem;
-                        background-color: blue;
+                        margin-bottom: 3rem;
+                    
+                    }
+                
+                }
+                 &:nth-child(3){
+                    a{
+                        text-decoration: none;
+                        color: rgb(201, 175, 5) ;
+
                     }
                 }
             }
